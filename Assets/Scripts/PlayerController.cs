@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public int currentTile = 0;
     public float moveSpeed = 3f;
-    private BoardManager boardManager;
+    public BoardManager boardManager;
     private bool isMoving = false;
 
     private void Start()
